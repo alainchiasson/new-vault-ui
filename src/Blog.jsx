@@ -7,15 +7,6 @@ import { getPosts } from './api/posts.js'
 import { useState } from 'react'
 
 export function Blog() {
-  // const posts = [
-  //   {
-  //     title: 'Full-Stack React Projects',
-  //     contents: "Let's become full-stack developers!",
-  //     author: 'Daniel Bugl',
-  //   },
-  //   { title: 'Hello React!' },
-  // ]
-
   const [author, setAuthor] = useState('')
   const [sortBy, setSortBy] = useState('createdAt')
   const [sortOrder, setSortOrder] = useState('descending')
