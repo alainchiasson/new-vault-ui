@@ -53,7 +53,6 @@ export function CreatePost() {
         value={createPostMutation.isPending ? 'Creating...' : 'Create'}
         disabled={!title || createPostMutation.isPending}
       />
-
       {createPostMutation.isSuccess ? (
         <>
           <br />
