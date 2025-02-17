@@ -1,6 +1,6 @@
-# Modern Full-Stack React Projects / Chapter 5 / Backend
+# Modern Full-Stack React Projects / Chapter 6 / Backend
 
-_Deploying the Application with Docker and CI/CD_
+_Adding Authentication with JWT_
 
 ## Requirements
 
@@ -64,5 +64,3 @@ docker run -it -e PORT=3001 -e DATABASE_URL=mongodb://host.docker.internal:27017
 ```
 
 Please note that this requires a MongoDB container to be running on port 27017!
-
-Simple change here.

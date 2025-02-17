@@ -1,6 +1,6 @@
-# Modern Full-Stack React Projects / Chapter 5
+# Modern Full-Stack React Projects / Chapter 6
 
-_Deploying the Application with Docker and CI/CD_
+_Adding Authentication with JWT_
 
 ## Requirements
 
