@@ -44,6 +44,7 @@ jobs:
           service: blog-backend
           image: ${{ secrets.DOCKERHUB_USERNAME }}/blog-backend:latest
           region: ${{ secrets.GOOGLECLOUD_REGION }}
+          set-env-variables: DATABASE_URL=${{ secrets.DATABASE_URL }}
 
       - name: Build and push frontend image
         uses: docker/build-push-action@v4
